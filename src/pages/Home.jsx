@@ -3,6 +3,7 @@ import MySvgElement from "../components/MySvgElement";
 import Smily from "../components/Smily.svg";
 import NestedSelection from "../components/D3Practice/NestedSelection";
 import DataBinding from "../components/D3Practice/DataBinding";
+import BarChart from "../components/D3Practice/BarChart";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Smily />
       <NestedSelection />
       <DataBinding />
+      <BarChart />
     </div>
   );
 };
