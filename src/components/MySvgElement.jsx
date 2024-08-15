@@ -7,7 +7,7 @@ const MySvgElement = () => {
             <rect height={100} width={100} x={20} y={20} fill='green' />
             <circle cy={150} cx={200} r={50} fill='blue' />
             <text x={250} y={250} fontSize={20} >
-                hay abii good work
+                Created in SVG
             </text>
         </svg>
     </div>
