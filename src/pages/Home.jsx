@@ -17,10 +17,10 @@ const Home = () => {
         margin:'5rem 0'
       }}
     >
-      <MySvgElement />
+      {/* <MySvgElement />
       <Smily />
       <NestedSelection />
-      <DataBinding />
+      <DataBinding /> */}
       <BarChart />
     </div>
   );
