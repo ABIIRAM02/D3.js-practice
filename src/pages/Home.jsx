@@ -4,6 +4,7 @@ import Smily from "../components/Smily.svg";
 import NestedSelection from "../components/D3Practice/NestedSelection";
 import DataBinding from "../components/D3Practice/DataBinding";
 import BarChart from "../components/D3Practice/BarChart";
+import PieChart from "../components/D3Practice/PieChart";
 
 const Home = () => {
   return (
@@ -17,11 +18,12 @@ const Home = () => {
         margin:'5rem 0'
       }}
     >
-      <MySvgElement />
+      {/* <MySvgElement />
       <Smily />
       <NestedSelection />
-      <DataBinding />
+      <DataBinding /> */}
       <BarChart />
+      <PieChart />
     </div>
   );
 };
